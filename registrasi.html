@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kucing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="background-color: beige;">
+    <nav class="py-2 border-bottom" style=" background-color: black;">
+        <div class="container-fluid d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a href="#" class="nav-link px-2 active" aria-current="page" style="color: white;">
+                        Komunitas Kucing</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-2" style="color: white;">Home</a></li>
+                <li class="nav-item"><a href="registrasi.html" class="nav-link px-2" style="color: white;">Daftar</a>
+                </li>
+                <li class="nav-item"><a href="design.html" class="nav-link px-2" style="color: white;">Design</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h3 style="text-align: center;"> Registrasi</h3>
+    <div class="card w-50" style="width: 1250px; margin: auto;">
+        <div class="card-body">
+            <table class="table">
+                <tr>
+                    <td> Nama Lengkap</td>
+                    <td> <input type="text" id="nama" name="nama" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td> Tanggal lahir </td>
+                    <td> <input type="datetime" id="lahir" name="lahir" class="form-control"></td>
+                </tr>
+
+                <tr>
+                    <td> Kelompok Umur</td>
+                    <td>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Pilih kelompok umur</option>
+                            <option value="1">Anak</option>
+                            <option value="2">Remaja</option>
+                            <option value="3">Dewasa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Jenis kelamin </td>
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="jenisKelamin" id="lakiLaki"
+                                value="Laki-laki">
+                            <label class="form-check-label" for="lakiLaki">
+                                Laki-laki
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="jenisKelamin" id="perempuan"
+                                value="Perempuan" checked>
+                            <label class="form-check-label" for="perempuan">
+                                Perempuan
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="hobi" id="maingame" value="maingame">
+                            <label class="form-check-label" for="maingame">
+                                Main Game
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="hobi" id="Ngoding" value="Ngoding"
+                                checked>
+                            <label class="form-check-label" for="Ngoding">
+                                Ngoding
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="hobi" id="kucing" value="kucing"
+                                checked>
+                            <label class="form-check-label" for="kucing">
+                                Bermain bersama kucing
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Asal daerah</td>
+                    <td>
+                        <input type="text" id="daerah" name="daerah" class="form-control">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Alasan bergabung
+                        <label for="alasan" class="form-label"></label>
+                    </td>
+                    <td>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="alasan" rows="4"></textarea>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="text-center">
+                <a class="btn btn-primary" href="design.html" role="button"
+                    style="align-content: center; background-color: green;">DAFTAR SEKARANG</a>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
